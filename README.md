@@ -4,6 +4,7 @@
 
 ## 🔧 Links
 
+#
 ### Fonts
 
 - [Fira Code](https://github.com/tonsky/FiraCode)
@@ -14,12 +15,12 @@
 - [Oh My Zsh](https://ohmyz.sh/)
 - [Spaceship Theme](https://github.com/spaceship-prompt/spaceship-prompt)
 
-# Themes
+### Themes
 
 - [Dracula PRO](https://draculatheme.com/pro)
 - [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
-# Extensions
+### Extensions
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
