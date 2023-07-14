@@ -1,94 +1,141 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Pro",
+  "workbench.iconTheme": "symbols",
   "workbench.editor.labelFormat": "short",
   "workbench.editor.untitled.hint": "hidden",
-
   "editor.wordWrap": "on",
   "editor.fontSize": 12,
   "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
-  "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
   },
-
-  "breadcrumbs.enabled": true,
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-
-  "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "material-icon-theme.folders.associations": {
-    "domain": "core",
-    "infra": "app",
-    "main": "public",
-    "presentation": "connection",
-    "cryptography": "secure",
-    "entities": "class",
-    "repositories": "mappings",
-    "protocols": "resource",
-    "useCases": "components",
-    "subcomponents": "components",
-    "adapters": "connection",
-    "factories": "container",
-    "globals": "global",
-    "ui": "views"
+  "editor.parameterHints.enabled": false,
+  "cSpell.language": "en,pt",
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
   },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
   },
-  "polacode.transparentBackground": true,
-  "polacode.shadow": "none",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
   },
-  "gitlens.defaultDateFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "gitlens.codeLens.authors.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": false,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true
+  },
+  "gitlens.codeLens.enabled": false,
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "junstyle.php-cs-fixer"
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.executablePathWindows": "",
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
+  "php-cs-fixer.allowRisky": false,
+  "php-cs-fixer.pathMode": "override",
+  "php-cs-fixer.autoFixByBracket": true,
+  "php-cs-fixer.autoFixBySemicolon": false,
+  "php-cs-fixer.formatHtml": false,
+  "php-cs-fixer.documentFormattingProvider": true,
+  "php-cs-fixer.lastDownload": 1687544447013,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "settingsSync.ignoredExtensions": [],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "window.zoomLevel": 1,
-  "[blade]": {
-    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-  }
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontWeightBold": "bold",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "all",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "Dracula Pro",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "window.zoomLevel": 2
 }

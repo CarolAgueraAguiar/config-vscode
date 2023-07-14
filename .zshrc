@@ -10,7 +10,7 @@ alias zs="source ~/.zshrc"
 
 # ZSH Variables
 export ZSH="/home/carol/.oh-my-zsh"
-export ZSH_THEME="spaceship"
+export ZSH_THEME="cloud"
 
 # ZSH Plugins
 plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
